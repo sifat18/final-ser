@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$12$Y3MDwxQZSfO0rEt5F03mYeD1fGlvxHpf.ePTAsvRjT3DrGwMc2mP2",
+      "name": "Sumit Saha",
+      "id": 1
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$12$xCVtMWSrEg3wCX0.OvWqBew5a/9YnROf4YEKlC6IqA32rL82Ry3o6",
+      "name": "Akash Ahmed",
+      "id": 2
+    },
+    {
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$12$VhlvXPgbrKOWugpniakHc.8rPgEiOH0zrXFhwkUGzr5nqJce/s0Ge",
+      "name": "Saad Hasan",
+      "id": 3
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$12$oZX4IW4zLQV2Baww9GGw6.ErIH5UGKptnoeXLy79a2S2kanF5NbkO",
+      "name": "Test 1",
+      "id": 4
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$12$PmB4FytkWoLbeGKni85cYew74LsaqcEWapRnAlpXdzKwS1.0lqlAS",
+      "name": "Test 2",
+      "id": 5
+    },
+    {
+      "email": "test3@gmail.com",
+      "password": "$2a$12$iMBKeWXJm0U32u2tM8F5Gu.zAxaLV8rKdbKNOQoTVM3xXXm9.uQ5.",
+      "name": "Test 3",
+      "id": 6
+    },
+    {
+      "email": "test4@gmail.com",
+      "password": "$2a$12$iMniDEjY5IwmCYwKEkeXA.1YBYH/R30fGiCc.ksB4KL0HLdLhMMaW",
+      "name": "Test 4",
+      "id": 7
+    },
+    {
+      "email": "test5@gmail.com",
+      "password": "$2a$12$zeQ./lLCLOZxyblxBeMLNOQ7dJNbSy..R4Hq/F6fO.H8yGcNt9ude",
+      "name": "Test 5",
+      "id": 8
+    },
+    {
+      "email": "ibnsifat@gmail.com",
+      "password": "$2a$10$ibxot.7mhxBZFMij9/tSuOFyTza6BwHwrVIhI8J.a.RC.9x40PEPm",
+      "name": "sifat",
+      "id": 27
+    },
+    {
+      "email": "t@t.com",
+      "password": "$2a$10$OkmgWOeSwMOFZ/tBzAMLgOUMhRbpk1cRyic2L3jmDijXoxG1xWuQa",
+      "name": "tt",
+      "id": 28
+    },
+    {
+      "email": "g@g.com",
+      "password": "$2a$10$vnKHmt2pba1Wlv4/nuKKNOC0A8RhX6gL6xzaGir1D8fa74Demrw1S",
+      "name": "g",
+      "id": 29
+    }
+  ],
+  "teams": [
+    {
+      "participants": "ibnsifat@gmail.com t@t.com",
+      "creator": "ibnsifat@gmail.com",
+      "users": [
+        {
+          "email": "ibnsifat@gmail.com",
+          "name": "sifat",
+          "id": 27
+        },
+        {
+          "email": "t@t.com",
+          "password": "$2a$10$OkmgWOeSwMOFZ/tBzAMLgOUMhRbpk1cRyic2L3jmDijXoxG1xWuQa",
+          "name": "tt",
+          "id": 28
+        }
+      ],
+      "team": "dev",
+      "title": "this is dev",
+      "color": "purple",
+      "date": "Sep 27th 22",
+      "id": 1
+    },
+    {
+      "participants": "ibnsifat@gmail.com",
+      "creator": "ibnsifat@gmail.com",
+      "users": [
+        {
+          "email": "ibnsifat@gmail.com",
+          "name": "sifat",
+          "id": 27
+        }
+      ],
+      "team": "design",
+      "title": "joss designer",
+      "color": "green",
+      "date": "Sep 27th 22",
+      "id": 2
+    }
+  ],
+  "projects": [
+    {
+      "participants": "ibnsifat@gmail.com t@t.com",
+      "creator": "ibnsifat@gmail.com",
+      "team": "dev",
+      "title": "first task",
+      "color": "purple",
+      "status": "backlog",
+      "date": "Sep 27th 22",
+      "id": 1
+    }
+  ]
+}
